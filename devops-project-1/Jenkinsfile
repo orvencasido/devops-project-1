@@ -5,7 +5,7 @@ pipeline {
         stage('Sample') {
             steps {
                 sh """
-                    echo "Hello, Jenkins!"echo 
+                    docker --version
                 """
             }
         }
